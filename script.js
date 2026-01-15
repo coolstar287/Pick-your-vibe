@@ -1,8 +1,8 @@
 const vibeSounds = {
-  "calm-night": "sounds/calm-night.mp3",
-  "soft-daydream": "sounds/soft-daydream.mp3",
-  "cosmic": "sounds/cosmic.mp3",
-  "calm-days": "sounds/calm-days.mp3"
+  "calm-night": "calm-night.mp3",
+  "soft-daydream": "soft-daydream.mp3",
+  "cosmic": "cosmic.mp3",
+  "calm-days": "calm-days.mp3"
 };
 
 const bgSound = document.getElementById("bgSound");
@@ -21,4 +21,5 @@ function setVibe(vibe) {
     .then(() => console.log("🔊 playing"))
     .catch(err => console.error("❌ play error:", err));
 }
+
 
